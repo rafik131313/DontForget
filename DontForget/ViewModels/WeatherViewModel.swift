@@ -22,7 +22,7 @@ class WeatherViewModel: ObservableObject {
     
     
     func getWeatherURLSession(){
-        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=Wroclaw&appid=4b0536fd89158be8ef07e9642d78dd5e&units=metric") else {
+        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=Wroclaw&appid=IDIDIDID&units=metric") else {
             return
         }
         
